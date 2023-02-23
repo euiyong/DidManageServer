@@ -68,6 +68,9 @@ dependencies {
 
 	//MyBatis sql pretty
 	implementation group: 'org.bgee.log4jdbc-log4j2', name:'log4jdbc-log4j2-jdbc4.1', version: '1.16'
+
+	//for Hot Swap
+	developmentOnly 'org.springframework.boot:spring-boot-devtools'
 }
 
 

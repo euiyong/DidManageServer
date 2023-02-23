@@ -35,7 +35,7 @@ public class MyTestController {
     @GetMapping("/test-log-level")
     public void testLogLevel() {
         log.info("========== Logger Level Test ==========");
-        String name = "안녕 Spring!";
+        String name = "안녕 SpringBoot!!!!!!!";
         log.trace("trace log={}", name);
         log.debug("debug log={}", name);
         log.info("info log={}", name);
@@ -106,6 +106,6 @@ public class MyTestController {
     @GetMapping("/test-trans")
     @Transactional
     public void testTrans() {
-        
+
     }
 }
