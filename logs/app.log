@@ -1,0 +1,48 @@
+2023-02-22 14:03:28,714 INFO  [main] logStarting (StartupInfoLogger.java:55) Starting DidManageServerApplication using Java 11 on RTNB098 with PID 8640 (D:\Study\ETRIDID\DidManageServer\out\production\classes started by dream in D:\Study\ETRIDID\DidManageServer)
+2023-02-22 14:03:28,718 INFO  [main] logStartupProfileInfo (SpringApplication.java:631) No active profile set, falling back to 1 default profile: "default"
+2023-02-22 14:03:29,595 WARN  [main] warn (Logger.java:44) No MyBatis mapper was found in '[kr.re.etri.did.idmngserver]' package. Please check your configuration.
+2023-02-22 14:03:29,956 INFO  [main] initialize (TomcatWebServer.java:108) Tomcat initialized with port(s): 44010 (http)
+2023-02-22 14:03:29,966 INFO  [main] log (DirectJDKLog.java:173) Starting service [Tomcat]
+2023-02-22 14:03:29,967 INFO  [main] log (DirectJDKLog.java:173) Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-22 14:03:30,345 INFO  [main] log (DirectJDKLog.java:173) At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-02-22 14:03:30,353 INFO  [main] log (DirectJDKLog.java:173) Initializing Spring embedded WebApplicationContext
+2023-02-22 14:03:30,354 INFO  [main] prepareWebApplicationContext (ServletWebServerApplicationContext.java:292) Root WebApplicationContext: initialization completed in 1592 ms
+2023-02-22 14:03:30,390 INFO  [main] init (ServerInitializer.java:26) info log=Spring!
+2023-02-22 14:03:30,391 WARN  [main] init (ServerInitializer.java:27) warn log=Spring!
+2023-02-22 14:03:30,392 ERROR [main] init (ServerInitializer.java:28) error log=Spring!
+2023-02-22 14:03:30,967 INFO  [main] init (ServerInitializer.java:53) DidManageServer did : did:ezid:8MbPn18Q9SBCGO3A2yol
+2023-02-22 14:03:31,433 INFO  [main] <init> (WelcomePageHandlerMapping.java:53) Adding welcome page: ServletContext resource [/index.html]
+2023-02-22 14:03:31,645 INFO  [main] start (TomcatWebServer.java:220) Tomcat started on port(s): 44010 (http) with context path '/DidManageServer'
+2023-02-22 14:03:31,657 INFO  [main] logStarted (StartupInfoLogger.java:61) Started DidManageServerApplication in 3.332 seconds (JVM running for 6.595)
+2023-02-22 14:06:44,167 INFO  [main] logStarting (StartupInfoLogger.java:55) Starting DidManageServerApplication using Java 11 on RTNB098 with PID 28600 (D:\Study\ETRIDID\DidManageServer\out\production\classes started by dream in D:\Study\ETRIDID\DidManageServer)
+2023-02-22 14:06:44,172 INFO  [main] logStartupProfileInfo (SpringApplication.java:631) No active profile set, falling back to 1 default profile: "default"
+2023-02-22 14:06:45,022 WARN  [main] warn (Logger.java:44) No MyBatis mapper was found in '[kr.re.etri.did.idmngserver]' package. Please check your configuration.
+2023-02-22 14:06:45,361 INFO  [main] initialize (TomcatWebServer.java:108) Tomcat initialized with port(s): 44010 (http)
+2023-02-22 14:06:45,369 INFO  [main] log (DirectJDKLog.java:173) Starting service [Tomcat]
+2023-02-22 14:06:45,370 INFO  [main] log (DirectJDKLog.java:173) Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-22 14:06:45,752 INFO  [main] log (DirectJDKLog.java:173) At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-02-22 14:06:45,763 INFO  [main] log (DirectJDKLog.java:173) Initializing Spring embedded WebApplicationContext
+2023-02-22 14:06:45,763 INFO  [main] prepareWebApplicationContext (ServletWebServerApplicationContext.java:292) Root WebApplicationContext: initialization completed in 1534 ms
+2023-02-22 14:06:45,824 INFO  [main] init (ServerInitializer.java:26) info log=안녕 Spring!
+2023-02-22 14:06:45,825 WARN  [main] init (ServerInitializer.java:27) warn log=안녕 Spring!
+2023-02-22 14:06:45,826 ERROR [main] init (ServerInitializer.java:28) error log=안녕 Spring!
+2023-02-22 14:06:46,229 INFO  [main] init (ServerInitializer.java:53) DidManageServer did : did:ezid:8MbPn18Q9SBCGO3A2yol
+2023-02-22 14:06:46,498 INFO  [main] <init> (WelcomePageHandlerMapping.java:53) Adding welcome page: ServletContext resource [/index.html]
+2023-02-22 14:06:46,646 INFO  [main] start (TomcatWebServer.java:220) Tomcat started on port(s): 44010 (http) with context path '/DidManageServer'
+2023-02-22 14:06:46,655 INFO  [main] logStarted (StartupInfoLogger.java:61) Started DidManageServerApplication in 3.051 seconds (JVM running for 6.193)
+2023-02-22 14:34:57,519 INFO  [main] logStarting (StartupInfoLogger.java:55) Starting DidManageServerApplication using Java 11 on RTNB098 with PID 23856 (D:\Study\ETRIDID\DidManageServer\out\production\classes started by dream in D:\Study\ETRIDID\DidManageServer)
+2023-02-22 14:34:57,523 INFO  [main] logStartupProfileInfo (SpringApplication.java:631) No active profile set, falling back to 1 default profile: "default"
+2023-02-22 14:34:58,202 WARN  [main] warn (Logger.java:44) No MyBatis mapper was found in '[kr.re.etri.did.idmngserver]' package. Please check your configuration.
+2023-02-22 14:34:58,546 INFO  [main] initialize (TomcatWebServer.java:108) Tomcat initialized with port(s): 44010 (http)
+2023-02-22 14:34:58,554 INFO  [main] log (DirectJDKLog.java:173) Starting service [Tomcat]
+2023-02-22 14:34:58,555 INFO  [main] log (DirectJDKLog.java:173) Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-22 14:34:58,935 INFO  [main] log (DirectJDKLog.java:173) At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-02-22 14:34:58,951 INFO  [main] log (DirectJDKLog.java:173) Initializing Spring embedded WebApplicationContext
+2023-02-22 14:34:58,952 INFO  [main] prepareWebApplicationContext (ServletWebServerApplicationContext.java:292) Root WebApplicationContext: initialization completed in 1379 ms
+2023-02-22 14:34:59,038 INFO  [main] init (ServerInitializer.java:26) info log=안녕 Spring!
+2023-02-22 14:34:59,041 WARN  [main] init (ServerInitializer.java:27) warn log=안녕 Spring!
+2023-02-22 14:34:59,041 ERROR [main] init (ServerInitializer.java:28) error log=안녕 Spring!
+2023-02-22 14:34:59,653 INFO  [main] init (ServerInitializer.java:53) DidManageServer did : did:ezid:8MbPn18Q9SBCGO3A2yol
+2023-02-22 14:34:59,976 INFO  [main] <init> (WelcomePageHandlerMapping.java:53) Adding welcome page: ServletContext resource [/index.html]
+2023-02-22 14:35:00,146 INFO  [main] start (TomcatWebServer.java:220) Tomcat started on port(s): 44010 (http) with context path '/DidManageServer'
+2023-02-22 14:35:00,156 INFO  [main] logStarted (StartupInfoLogger.java:61) Started DidManageServerApplication in 3.135 seconds (JVM running for 6.346)

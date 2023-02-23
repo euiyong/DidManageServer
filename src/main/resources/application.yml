@@ -1,0 +1,61 @@
+#logging.level.org.apache.coyote.http11=debug
+server:
+  port: 44010
+  servlet.context-path: /DidManageServer
+
+#  tomcat:
+#    remoteip:
+#      remote-ip-header: x-forwarded-for
+#      protocol-header: x-forwarded-proto
+
+spring:
+  mvc.view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
+  datasource:
+#    driverClassName: com.mysql.jdbc.Driver
+#    url: "jdbc:mysql://10.10.30.131:3306/etri_did3didms?useUnicode=true&amp;characterEncoding=utf-8"
+    driverClassName: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+    url: "jdbc:log4jdbc:mysql://10.10.30.131:3306/etri_did3didms?useUnicode=true&amp;characterEncoding=utf-8"
+    username: "did3didms"
+    password: "did1234"
+
+mybatis:
+  mapper-locations: mybatis/*.xml
+  configuration:
+    map-underscore-to-camel-case: true
+#  type-aliases-package: com.dreamsecurity.vca.model
+
+logging:
+  file:
+    name: ${app.logs.path}/${app.logs.filename}.log
+  pattern:
+    console: "%d %-5p [%t] %M \\(%F:%L\\) %m%n"
+    file: ${logging.pattern.console}
+  level:
+#    root: info
+    kr.re.etri.did: info
+    jdbc.sqlonly: info #SQL 출력
+    jdbc.sqltiming: info #SQL 출력 && 수행시간
+    jdbc.resultsettable: info #조회 결과 table 로깅
+    jdbc.audit: off #ResultSet을 제외한 모든 JDBC 호출 정보
+    jdbc.resultset: off #ResultSet 포함한 모든 JDBC 호출 정보
+    jdbc.connection: off  #DB연결&해제 (필수 OFF)
+  logback:
+    rollingpolicy:
+      max-file-size: 100MB  #분할용량
+      max-history: 60 #분할 최대 파일 수
+      total-size-cap: 20GB    #로그 파일 아카이브 저장소(디스크)의 최대크기 (오래된 파일 자동 삭제)
+      file-name-pattern: "${app.logs.path}/${app.logs.filename}_%d{yyyy-MM-dd}_%i.log"  #max-file-size를 넘기면 index로 rollover
+  charset:
+    file: "utf-8"
+
+app:
+  properties:
+    cert-path: D:/DidCert/4th/didManageServer/
+    urServerUrl: http://10.10.30.150:38095/DidResolver
+    server-privseed: DREAM2023
+  logs:
+    root-path: D:/ETRILOG/did4
+    filename: didManageServer
+    path: ${app.logs.root-path}/${app.logs.filename}
