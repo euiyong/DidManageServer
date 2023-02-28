@@ -16,6 +16,7 @@ public class ExtHelperMvcConfigurer implements WebMvcConfigurer {
     @Override
     public void configureMessageConverters(List<HttpMessageConverter<?>> converters) {
         // Remove the default MappingJackson2HttpMessageConverter
+        // 파라미터 : Predicate 함수형 인터페이스
         converters.removeIf(converter -> converter instanceof MappingJackson2HttpMessageConverter);
 
         // Add the custom converter to the list of converters

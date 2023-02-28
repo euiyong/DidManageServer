@@ -18,7 +18,6 @@ import org.springframework.http.MediaType;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.text.SimpleDateFormat;
@@ -35,12 +34,13 @@ public class MyTestController {
     @GetMapping("/test-log-level")
     public void testLogLevel() {
         log.info("========== Logger Level Test ==========");
-        String name = "안녕 SpringBoot!!!!!!!";
+        String name = "안녕 Hello";
         log.trace("trace log={}", name);
         log.debug("debug log={}", name);
         log.info("info log={}", name);
         log.warn("warn log={}", name);
         log.error("error log={}", name);
+
     }
 
     @GetMapping("/test-server-pros")
@@ -53,16 +53,16 @@ public class MyTestController {
 
     @PostMapping(value = "/test-json-v1", produces = MediaType.APPLICATION_JSON_VALUE, consumes = MediaType.APPLICATION_JSON_VALUE)
 //    @RequestMapping(value = "/test-json-v1", produces = MediaType.APPLICATION_JSON_VALUE)
-    public MsgVO testJsonV1(@RequestBody MsgVO inMsgVO) throws Exception {
+    public MsgVO testJsonV1() throws Exception {
         //0. Input Check
-        try {
+/*        try {
             log.info("========== MsgVO INPUT ==========");
             log.info("inMsgVO Authentication ID = {}", inMsgVO.getAuthentication().getId());
             log.info("inMsgVO Proof ProofPurpose = {}", inMsgVO.getProof().getProofPurpose());
             log.info("========================================");
         }catch (Exception e) {
             e.printStackTrace();
-        }
+        }*/
 
         //1. Make Date Sample
         String dateStr = "1982-02-11";

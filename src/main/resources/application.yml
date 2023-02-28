@@ -35,6 +35,7 @@ logging:
   level:
 #    root: info
     kr.re.etri.did: info
+
     jdbc.sqlonly: info #SQL 출력
     jdbc.sqltiming: info #SQL 출력 && 수행시간
     jdbc.resultsettable: info #조회 결과 table 로깅
@@ -59,3 +60,4 @@ app:
     root-path: D:/ETRILOG/did4
     filename: didManageServer
     path: ${app.logs.root-path}/${app.logs.filename}
+
